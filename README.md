@@ -1,4 +1,8 @@
 # Bminor-Compiler implemented with C 
+[//]:# (pics/aut-logo.png)
+<p align="center">
+  <img width="120" hight="126" src="pics/aut-logo.png">
+</p>
 
 This Project has implemented for "Compiler design" course, Tehran polytechnic university, Prof. Shirali Shahreza.
 
@@ -7,7 +11,7 @@ Visit the [home page](https://www3.nd.edu/~dthain/courses/cse40243/fall2019/) of
 
 For implementing this project I've used [GitHub repo of Prof.Douglas Thain](https://github.com/dthain/compilerbook-examples) and [this repo](https://github.com/dthain/compilerbook-examples) . And also [Stanford compiler course website](https://web.stanford.edu/class/cs143/) and [these youtube unlisted videos](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ3yc_zf_f1GOxl5CZo0LVBb) was insightful.
 
-I'll adombrate this project with a few lines and then elaberate on each part.
+I'll adumbrate this project with a few lines and then elaberate on each part.
 We have 6 majort part for implementing any compiler:
 
 0. Understanding the structure of input language, in our case it's Bminor.
@@ -18,3 +22,17 @@ We have 6 majort part for implementing any compiler:
 5. Machine-independent code optimizing 
 6. Code generating for the end point machine
 7. Machine-dependent code optimizing
+
+Compiling pipeline:
+<p align="center">
+  <img width="1059" hight="639" src="pics/compilerPipeLine.png">
+</p>
+
+Understanding the structure of input language
+====
+As we know, every programming language has its own structure and in order to undertanding(compiling) them we should have a preknowledge about their structure.
+We can find more information about Bminor syntax [here](https://www3.nd.edu/~dthain/courses/cse40243/fall2019/bminor.html).
+
+Lexical analyzing( Scanning, Tokenizing)
+====
+
