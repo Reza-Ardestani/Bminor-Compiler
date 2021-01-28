@@ -28,6 +28,8 @@ Compiling pipeline:
   <img width="1059" hight="639" src="pics/compilerPipeLine.png">
 </p>
 
+(For this course, implementing "Intermediate code, and optimizations were not necessary and has left for interested readers, perhaps you!)
+
 Understanding the structure of input language
 ====
 As we know, every programming language has its own structure and in order to undertanding(compiling) them we should have a preknowledge about their structure.
