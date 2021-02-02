@@ -14,7 +14,7 @@ For implementing this project I've used [GitHub repo of Prof.Douglas Thain](http
 I'll adumbrate this project with a few lines and then elaberate on each part.
 We have 6 majort part for implementing any compiler:
 
-0. Understanding the structure of input language, in our case it's Bminor.
+0. Understanding the structure of the input language, in our case it's Bminor.
 1. Lexical analyzing( Scanning, Tokenizing)
 2. Syntax analyzing(Parsing)
 3. Semantic analyzing
@@ -30,7 +30,7 @@ Compiling pipeline:
 
 (For this course, implementing "Intermediate code, and optimizations were not necessary and has left for interested readers, perhaps you!)
 
-Understanding the structure of input language
+Understanding the structure of the input language
 ====
 As we know, every programming language has its own structure and in order to undertanding(compiling) them we should have a preknowledge about their structure.
 We can find more information about Bminor syntax [here](https://www3.nd.edu/~dthain/courses/cse40243/fall2019/bminor.html).
@@ -55,6 +55,10 @@ AST Visualization
 ====
 For visualization of AST we can easily use dot package and get the result in a pdf file as described below:
 <code> ./bminor -dot fibonnacci.bminor > fibonacci.dot  </code>
+<p align="center">
+  <img width="1304" hight="573" src="pics/AST.JPG">
+</p>
+
 
 Code Gen
 ==== 
@@ -69,9 +73,15 @@ Finally to compiler for input Bminor program run these commands inorder:
 
 Acknowledgement 
 ====
-I am grateful to all of those with whom I have had the pleasure to work during this and other related projects, especially Mr . Michal that help me to navigate through this challanging project.
+I am grateful to all of those with whom I have had the pleasure to work during this and other related projects, especially Mr . Michal that helped me to navigate through this challanging project.
+<p align="center">
+  <img width="1048" hight="647" src="pics/email.JPG">
+</p>
+
 
 I was uplifted by watching some videos and I would like to give a huge thanks to them: [Link1](https://www.youtube.com/watch?v=eF9qWbuQLuw), [link2](https://www.youtube.com/watch?v=PRcMPwaWj1Y), [link3](https://craftinginterpreters.com/a-map-of-the-territory.html)
 
-
+If you have any question, feel free to ask.
+Ardestani.zm@gmail.com
+Matthew Anderson(Mohammadreza Aredestani) 
 
