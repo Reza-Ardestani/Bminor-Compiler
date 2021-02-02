@@ -45,6 +45,33 @@ You can install in this way:
 
 <code> sudo apt-get install build-essential flex bison nasm </code>
 
-Lexical analyzing( Scanning, Tokenizing)
+Lexical analyzing( Scanning, Tokenizing) and Parser
 ====
+I have implemented Scanner and Parser manually, but for better runtime speed we can use Flex and bison Libs .
+Manual_Scanner_file is a scanner program that you can run it independently.
+[How to use Fles and bison](https://www.youtube.com/watch?v=pu0hX5lftQU)
+
+AST Visualization
+====
+For visualization of AST we can easily use dot package and get the result in a pdf file as described below:
+<code> ./bminor -dot fibonnacci.bminor > fibonacci.dot  </code>
+
+Code Gen
+==== 
+For code generation part, [this video](https://www.youtube.com/watch?v=-ti07Z0xKKg) from Prof. Douglas Thain is invaluable and extremely helpful.
+Finally to compiler for input Bminor program run these commands inorder:
+
+<code> ./bminor -compile fibonnacci.bminor > fibonacci.asm </code>
+
+<code> make compile src=fibonacci </code>
+
+<code> ./fibonacci.bin </code>
+
+Acknowledgement 
+====
+I am grateful to all of those with whom I have had the pleasure to work during this and other related projects, especially Mr . Michal that help me to navigate through this challanging project.
+
+I was uplifted by watching some videos and I would like to give a huge thanks to them: [Link1](https://www.youtube.com/watch?v=eF9qWbuQLuw), [link2](https://www.youtube.com/watch?v=PRcMPwaWj1Y), [link3](https://craftinginterpreters.com/a-map-of-the-territory.html)
+
+
 
