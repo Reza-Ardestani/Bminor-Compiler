@@ -1,0 +1,26 @@
+Token_Type  Token_Value   Line_Address
+________________________
+ID	None	 startingIndex:0 endingIndex:8
+:	None	LineNumber:1
+Keyword	function	LineNumber:1
+Keyword	void	LineNumber:1
+(	None	LineNumber:1
+ID	None	 startingIndex:27 endingIndex:27
+:	None	LineNumber:1
+Type	string	LineNumber:1
+)	None	LineNumber:1
+;	None	LineNumber:1
+ID	None	 startingIndex:41 endingIndex:44
+:	None	LineNumber:3
+Keyword	function	LineNumber:3
+Type	integer	LineNumber:3
+(	None	LineNumber:3
+)	None	LineNumber:3
+=	None	LineNumber:3
+{	None	LineNumber:3
+ID	None	 startingIndex:75 endingIndex:78
+(	None	LineNumber:4
+Comment 	None	 startingIndex:80 endingIndex:92
+)	None	LineNumber:4
+;	None	LineNumber:4
+}	None	LineNumber:5
